@@ -31,5 +31,7 @@
           text: '[shovill] Done.'
     tooldistillator_summarize_assembly:
       asserts:
-        has_text:
-          text: Total_length_no_overlaps_(bp)
+      - text: '"analysis_software_name": "shovill"'
+        that: has_text
+      - text: contig00146
+        that: has_text
