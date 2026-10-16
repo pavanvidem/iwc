@@ -844,7 +844,28 @@
     "iwcID": "haploid-variant-calling-wgs-pe-main",
     "repoPath": "./workflows/variant-calling/haploid-variant-calling-wgs-pe",
     "dockstore_id": 29174,
-    "categories": [],
+    "categories": [
+        "Sequence alignment validation",
+        "Sequencing quality control",
+        "Variant calling",
+        "Variant filtering",
+        "Comparative genomics",
+        "Genome resequencing",
+        "Parasitology",
+        "Population genomics",
+        "Variant annotation",
+        "Variant effect prediction",
+        "Whole genome sequencing",
+        "FASTA",
+        "FASTQ-sanger",
+        "GTF",
+        "Short-read sequencing data",
+        "BAM",
+        "VCF",
+        "Quality control report",
+        "Report",
+        "Variant call data"
+    ],
     "collections": [
         "Variant Calling"
     ],
@@ -881,7 +902,7 @@
                     "elements": [
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "ERR018930",
                             "elements": [
                                 {
@@ -912,7 +933,7 @@
                         },
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "ERR1035492",
                             "elements": [
                                 {
@@ -949,6 +970,7 @@
                     "path": "test-data/Annotated Variants.tabular"
                 },
                 "SnpEff variants": {
+                    "class": "Collection",
                     "element_tests": {
                         "ERR018930": {
                             "asserts": [

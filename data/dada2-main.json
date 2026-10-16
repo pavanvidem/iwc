@@ -910,7 +910,23 @@
     "iwcID": "dada2-main",
     "repoPath": "./workflows/amplicon/dada2",
     "dockstore_id": 25853,
-    "categories": [],
+    "categories": [
+        "Amplicon sequence analysis",
+        "Chimera detection",
+        "OTU-ASV generation",
+        "Sequence read processing",
+        "Sequencing quality control",
+        "Taxonomic classification",
+        "Metagenomic sequencing",
+        "Metagenomics",
+        "Microbial ecology",
+        "Microbiome",
+        "Sequence analysis",
+        "FASTQ-sanger",
+        "Short-read sequencing data",
+        "PDF",
+        "Taxonomic profile"
+    ],
     "collections": [
         "Metabarcoding"
     ],
@@ -925,7 +941,7 @@
                     "elements": [
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "F3D0",
                             "elements": [
                                 {
@@ -956,7 +972,7 @@
                         },
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "F3D5",
                             "elements": [
                                 {
@@ -987,7 +1003,7 @@
                         },
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "F3D145",
                             "elements": [
                                 {
@@ -1018,7 +1034,7 @@
                         },
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "F3D150",
                             "elements": [
                                 {
@@ -1049,7 +1065,7 @@
                         },
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "Mock",
                             "elements": [
                                 {

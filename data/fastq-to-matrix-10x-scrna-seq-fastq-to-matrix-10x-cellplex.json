@@ -2316,7 +2316,30 @@
     "iwcID": "fastq-to-matrix-10x-scrna-seq-fastq-to-matrix-10x-cellplex",
     "repoPath": "./workflows/scRNAseq/fastq-to-matrix-10x",
     "dockstore_id": 24781,
-    "categories": [],
+    "categories": [
+        "Ambient RNA correction",
+        "Cell barcode correction",
+        "Demultiplexing",
+        "Read pre-processing",
+        "Read summarization",
+        "RNA-Seq analysis",
+        "Sequencing quality control",
+        "Gene expression",
+        "RNA-Seq",
+        "Sequence analysis",
+        "Single-cell sequencing",
+        "Transcriptomics",
+        "CSV",
+        "FASTQ",
+        "GTF",
+        "Cell barcode and UMI data",
+        "Short-read sequencing data",
+        "MTX",
+        "PNG",
+        "Count matrix",
+        "Quality control report",
+        "Single-cell count matrix"
+    ],
     "collections": [
         "Transcriptomics",
         "Single Cell"
@@ -2332,7 +2355,7 @@
                     "elements": [
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "subsample",
                             "elements": [
                                 {
@@ -2394,7 +2417,7 @@
                     "elements": [
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "subsample",
                             "elements": [
                                 {
@@ -2454,11 +2477,13 @@
                     }
                 },
                 "Seurat input for gene expression (filtered)": {
+                    "class": "Collection",
                     "attributes": {
                         "collection_type": "list:list"
                     },
                     "element_tests": {
                         "subsample": {
+                            "class": "Collection",
                             "elements": {
                                 "matrix": {
                                     "asserts": {
@@ -2486,6 +2511,7 @@
                     }
                 },
                 "CITE-seq-Count report": {
+                    "class": "Collection",
                     "attributes": {
                         "collection_type": "list"
                     },
@@ -2513,11 +2539,13 @@
                     }
                 },
                 "Seurat input for CMO (UMI)": {
+                    "class": "Collection",
                     "attributes": {
                         "collection_type": "list:list"
                     },
                     "element_tests": {
                         "subsample": {
+                            "class": "Collection",
                             "elements": {
                                 "matrix": {
                                     "asserts": {

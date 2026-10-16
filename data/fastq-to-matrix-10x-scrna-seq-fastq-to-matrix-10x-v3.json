@@ -1119,7 +1119,26 @@
     "iwcID": "fastq-to-matrix-10x-scrna-seq-fastq-to-matrix-10x-v3",
     "repoPath": "./workflows/scRNAseq/fastq-to-matrix-10x",
     "dockstore_id": 24784,
-    "categories": [],
+    "categories": [
+        "Ambient RNA correction",
+        "Read summarization",
+        "RNA-Seq quantification",
+        "Sequencing quality control",
+        "UMI deduplication",
+        "Microfluidics",
+        "RNA-Seq",
+        "Sequencing",
+        "Single-cell sequencing",
+        "Transcriptomics",
+        "FASTQ",
+        "GTF",
+        "Short-read sequencing data",
+        "MTX",
+        "PNG",
+        "Count matrix",
+        "Quality control report",
+        "Single-cell count matrix"
+    ],
     "collections": [
         "Transcriptomics",
         "Single Cell"
@@ -1135,7 +1154,7 @@
                     "elements": [
                         {
                             "class": "Collection",
-                            "type": "paired",
+                            "collection_type": "paired",
                             "identifier": "subsample",
                             "elements": [
                                 {
@@ -1201,11 +1220,13 @@
                     }
                 },
                 "Seurat input for gene expression (filtered)": {
+                    "class": "Collection",
                     "attributes": {
                         "collection_type": "list:list"
                     },
                     "element_tests": {
                         "subsample": {
+                            "class": "Collection",
                             "elements": {
                                 "matrix": {
                                     "asserts": {
